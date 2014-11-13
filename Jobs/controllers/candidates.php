@@ -16,4 +16,11 @@ class Candidates_Controller extends Master_Controller {
         $template_file = DX_ROOT_DIR . $this->views_dir . 'index.php';
         include_once DX_ROOT_DIR . '/views/layouts/' . $this->layout;
     }
+    public function review() {
+        $candidates = $this->model->review($GLOBALS['param']);
+        $template_file = DX_ROOT_DIR . $this->views_dir . 'index.php';
+
+        include_once DX_ROOT_DIR . '/views/layouts/' . $this->layout;
+
+    }
 }

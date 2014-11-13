@@ -11,8 +11,7 @@ class Candidates_Model extends Master_Model {
     }
 
     public function get() {
-        return parent::get(1);
-//        return parent::find( );
+        return parent::find( );
     }
     public function review($id){
         return parent::get($id);

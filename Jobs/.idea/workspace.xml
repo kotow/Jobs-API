@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobs.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jobs.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/jobs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="605" selection-end="605" vertical-scroll-proportion="0.66952056" vertical-offset="0" max-vertical-offset="584">
+            <state line="25" column="0" selection-start="451" selection-end="676" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="candidates.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/candidates.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="42" selection-start="546" selection-end="546" vertical-scroll-proportion="0.5737122" vertical-offset="0" max-vertical-offset="563">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="candidates.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/candidates.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="5" selection-start="251" selection-end="251" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/candidates/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
+            <state line="2" column="98" selection-start="141" selection-end="141" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -62,7 +80,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/jobs/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="55" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
+            <state line="3" column="0" selection-start="35" selection-end="125" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -101,16 +119,16 @@
         <option value="$PROJECT_DIR$/lib/database.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/controllers/master_controller.php" />
-        <option value="$PROJECT_DIR$/controllers/candidates.php" />
-        <option value="$PROJECT_DIR$/models/candidates.php" />
         <option value="$PROJECT_DIR$/views/master/home.php" />
-        <option value="$PROJECT_DIR$/views/candidates/index.php" />
         <option value="$PROJECT_DIR$/models/jobs.php" />
         <option value="$PROJECT_DIR$/views/elements/header.php" />
         <option value="$PROJECT_DIR$/views/jobs/index.php" />
         <option value="$PROJECT_DIR$/models/master.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controllers/jobs.php" />
+        <option value="$PROJECT_DIR$/models/candidates.php" />
+        <option value="$PROJECT_DIR$/views/candidates/index.php" />
+        <option value="$PROJECT_DIR$/controllers/candidates.php" />
       </list>
     </option>
   </component>
@@ -320,7 +338,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -428,13 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/candidates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="274" selection-end="274" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/master/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
@@ -442,23 +453,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/candidates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="70" selection-start="396" selection-end="396" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/master_controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.44006848" vertical-offset="83" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/candidates/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
           <folding />
         </state>
       </provider>
@@ -486,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/jobs/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="55" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="4" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-11.038462" vertical-offset="529" max-vertical-offset="1122">
@@ -502,7 +492,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/jobs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="605" selection-end="605" vertical-scroll-proportion="0.66952056" vertical-offset="0" max-vertical-offset="584">
+        <state line="25" column="0" selection-start="451" selection-end="676" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/candidates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="251" selection-end="251" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/jobs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="35" selection-end="125" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/candidates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="98" selection-start="141" selection-end="141" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/candidates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="42" selection-start="546" selection-end="546" vertical-scroll-proportion="0.5737122" vertical-offset="0" max-vertical-offset="563">
           <folding />
         </state>
       </provider>

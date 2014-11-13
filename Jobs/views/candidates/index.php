@@ -1,3 +1,3 @@
 <?php
 foreach( $candidates as $candidate )
-	echo(json_encode($candidate).'</br>');
+    echo('<a href="'.DX_ROOT_URL.'candidates/review/'.$candidate["ID"].'">'.json_encode($candidate).'</a></br>');
