@@ -7,8 +7,8 @@
     <div id="container">
         <div id="top-menu">
             <ul>
-                <li><a href="<?=DX_ROOT_URL.'jobs/jobs'?>">Jobs</a></li>
-                <li><a href="<?=DX_ROOT_URL.'candidates/candidates'?>">Candidates</a></li>
+                <li><a href="<?=DX_ROOT_URL.'jobs/list'?>">Jobs</a></li>
+                <li><a href="<?=DX_ROOT_URL.'candidates/list'?>">Candidates</a></li>
             </ul>
         </div>
         <div id="main">

@@ -1,3 +1,1 @@
-<?php
-foreach( $jobs as $job )
-    echo(json_encode($job));
+<h1>CSKA</h1>

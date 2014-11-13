@@ -46,9 +46,10 @@ if ( isset( $controller ) && file_exists( 'controllers/' . $controller . '.php' 
     $controller_class = '\Controllers\\' . ucfirst( $controller ) . '_Controller';
 
     $instance = new $controller_class();
+    var_dump(method_exists( $instance, $method ));
     // Call the object and the method
     if( method_exists( $instance, $method ) ) {
-        call_user_func_array( array( $instance, $method ), array( $param ) );
+        //call_user_func_array( array( $instance, $method ), array( $param ) );
  		$instance->$method();
     } else {
         // fallback to index

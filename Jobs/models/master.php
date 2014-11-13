@@ -47,8 +47,6 @@ class Master_Model {
             'limit' => 0
         ), $args );
 
-        extract( $args );
-
         $query = "select {$args['columns']} from {$args['table']}";
 
         if( ! empty( $where ) ) {
@@ -58,8 +56,6 @@ class Master_Model {
         if( ! empty( $limit ) ) {
             $query .= ' limit ' . $limit;
         }
-
-// 		var_dump($query);
 
         $result_set = $this->dbconn->query( $query );
 

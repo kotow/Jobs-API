@@ -10,7 +10,4 @@ class Jobs_Model extends Master_Model {
         ) );
     }
 
-    public function get_jobs() {
-        return parent::find( );
-    }
 }
