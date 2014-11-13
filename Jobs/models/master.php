@@ -49,12 +49,12 @@ class Master_Model {
 
         $query = "select {$args['columns']} from {$args['table']}";
 
-        if( ! empty( $where ) ) {
-            $query .= ' where ' . $where;
+        if( ! empty( $args['where'] ) ) {
+            $query .= ' where ' . $args['where'];
         }
 
-        if( ! empty( $limit ) ) {
-            $query .= ' limit ' . $limit;
+        if( ! empty( $args['limit'] ) ) {
+            $query .= ' limit ' . $args['limit'];
         }
 
         $result_set = $this->dbconn->query( $query );

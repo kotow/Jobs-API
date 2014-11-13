@@ -22,7 +22,73 @@
     <favorites_list name="Jobs" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="4" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-11.038462" vertical-offset="529" max-vertical-offset="1122">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobs.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/jobs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="605" selection-end="605" vertical-scroll-proportion="0.66952056" vertical-offset="0" max-vertical-offset="584">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/elements/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="32" selection-start="242" selection-end="272" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/candidates/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="32" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/jobs/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="55" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobs.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/jobs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/master.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="1" selection-start="1797" selection-end="1797" vertical-scroll-proportion="-21.153847" vertical-offset="759" max-vertical-offset="1411">
+              <folding>
+                <marker date="1415909832989" expanded="true" signature="1095:1142" placeholder="select {$arg..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -37,13 +103,13 @@
         <option value="$PROJECT_DIR$/controllers/master_controller.php" />
         <option value="$PROJECT_DIR$/controllers/candidates.php" />
         <option value="$PROJECT_DIR$/models/candidates.php" />
-        <option value="$PROJECT_DIR$/views/elements/header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/master/home.php" />
         <option value="$PROJECT_DIR$/views/candidates/index.php" />
-        <option value="$PROJECT_DIR$/views/jobs/index.php" />
         <option value="$PROJECT_DIR$/models/jobs.php" />
+        <option value="$PROJECT_DIR$/views/elements/header.php" />
+        <option value="$PROJECT_DIR$/views/jobs/index.php" />
         <option value="$PROJECT_DIR$/models/master.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controllers/jobs.php" />
       </list>
     </option>
@@ -81,6 +147,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,6 +230,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="candidates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -197,7 +282,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,14 +321,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -286,9 +370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="11" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -300,9 +382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="47" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
-        </state>
+        <state line="3" column="47" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -338,9 +418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="11" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/default.php">
@@ -357,60 +435,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/elements/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="54" selection-start="190" selection-end="190" vertical-scroll-proportion="0.26198632" vertical-offset="0" max-vertical-offset="584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="10" selection-start="1652" selection-end="1652" vertical-scroll-proportion="-12.5" vertical-offset="542" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/master/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/candidates/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="72" selection-end="72" vertical-scroll-proportion="0.05821918" vertical-offset="0" max-vertical-offset="584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/jobs/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.08732877" vertical-offset="0" max-vertical-offset="584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/jobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="29" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.7311644" vertical-offset="780" max-vertical-offset="1411">
-          <folding>
-            <marker date="1415904936572" expanded="true" signature="-1:-1" placeholder="select {$arg..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/jobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="37" selection-start="519" selection-end="519" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
@@ -425,6 +452,57 @@
     <entry file="file://$PROJECT_DIR$/controllers/master_controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.44006848" vertical-offset="83" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/candidates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="32" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/elements/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="242" selection-end="272" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/jobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="1" selection-start="1797" selection-end="1797" vertical-scroll-proportion="-21.153847" vertical-offset="759" max-vertical-offset="1411">
+          <folding>
+            <marker date="1415909832989" expanded="true" signature="1095:1142" placeholder="select {$arg..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/jobs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="55" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="4" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-11.038462" vertical-offset="529" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/jobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="605" selection-end="605" vertical-scroll-proportion="0.66952056" vertical-offset="0" max-vertical-offset="584">
           <folding />
         </state>
       </provider>
