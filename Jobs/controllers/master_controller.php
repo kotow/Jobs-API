@@ -19,13 +19,12 @@ class Master_Controller {
         $this->model = $model;
         $this->views_dir = $views_dir;
 
-        include_once DX_ROOT_DIR . "models/{$this->model}.php";
-        $model_class = "Models\\" . ucfirst( $this->model ) . "_Model";
+        include_once DX_ROOT_DIR . "models/{$model}.php";
+        $model_class = "Models\\" . ucfirst( $model ) . "_Model";
 
         $this->model = new $model_class( array( 'table' => 'none' ) );
 
     }
-
     public function home() {
         $template_file = DX_ROOT_DIR . $this->views_dir . 'home.php';
 

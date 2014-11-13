@@ -10,7 +10,7 @@ class Candidates_Model extends Master_Model {
         ) );
     }
 
-    public function get_jobs() {
+    public function get() {
         return parent::find( );
     }
 }

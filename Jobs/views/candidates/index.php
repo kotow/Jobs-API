@@ -1,3 +1,3 @@
 <?php
-foreach( $jobs as $job )
-	echo(json_encode($job));
+foreach( $candidates as $candidate )
+	echo(json_encode($candidate).'</br>');
